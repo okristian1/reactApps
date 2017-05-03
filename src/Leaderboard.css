@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.button {
+  width: 100px;
+  height: 30px;
+  border-radius: 3px;
+}
+.button-blue {
+  color: white;
+  background: blue;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.column-leaderboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 5%;
+  margin-right: 2rem;
+  vertical-align: middle;
+}
+
+.user {
+  min-width: 13rem;
+  text-align: left;
+}
+
+.toggle {
+  background: #222;
+  color: white;
+  outline: none;
+  border: none;
+  height: 60px;
+  width: 230px;
+  margin: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+a {
+  color: #222;
+  text-decoration: none;
+  vertical-align:super;
+}
+
+
+.id {
+  min-width: 3rem;
+}
+
+.score {
+  text-align: center;
+  width: 20rem;
+}
+
+td {
+   padding: 5px;
+   font-size: 22px;
+}
+
+th {
+  font-size: 30px;
+}
+
+tr{
+  height: 20px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2}
