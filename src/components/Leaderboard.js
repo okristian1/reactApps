@@ -82,7 +82,7 @@ handleClick = () => {
             <td className="user">
               <a href={"https://www.freecodecamp.com/"+camper.username}>
                 <img
-                className="avatar"
+                className="leaderboard-avatar"
                 src={camper.img}
                 alt={'Avatar for '+camper.username}
                 href={"https://www.freecodecamp.com/"+camper.username}

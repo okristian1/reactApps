@@ -5,7 +5,7 @@ function OuterNav() {
   return (
     <ul className='outer-nav'>
       <li>
-        <NavLink exact activeClassName='active' to='/main'>
+        <NavLink exact activeClassName='active' to='/'>
           Main
         </NavLink>
       </li>
